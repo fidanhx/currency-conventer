@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <a href="#">
+                <img src="bank.svg" alt="bank">
+            </a>
+            
+            <ul class="headerUl">
+                <li ><a  href="#" class="active0">БАНК</a></li>
+                <li><a href="#">БИЗНЕС</a></li>
+                <li><a href="#">ИНВЕСТИЦИИ</a></li>
+                <li><a href="#">СТРАХОВАНИЕ</a></li>
+                <li><a href="#">МОБАЙЛ</a></li>
+                <li><a href="#">ПУТЕШЕСТВИЯ</a></li>
+                <li><a href="#">РАЗВЛЕЧЕНИЯ</a></li>
+            </ul>
+            <button class="voyti">ВОЙТИ</button>
+        </div>
+    </header>
+    <div class="main">
+        <h1>Конвертер валют онлайн</h1>
+    <div class="cons">
+    <div class="con1">
+        <p class="simple">У меня есть</p>
+        <ul class="val1">
+            <li><button class="value v1 vm ru ru1">RUB</button></li>
+            <li><button class="value v1 us1">USD</button></li>
+            <li><button class="value v1 eu1">EUR</button></li>
+            <li><button class="value v1 gb1">GBP</button></li>
+        </ul>
+        <div class="result">
+            <input type="text" class="inp inp1">
+            <p id="rate1"></p>
+        </div>
+    </div>
+    <div class="con2">
+        <p class="simple">Хочу приобрести</p>
+        <ul class="val2">
+            <li><button class="value v2 ru2">RUB</button></li>
+            <li><button class="value v2 vm us us2">USD</button></li>
+            <li><button class="value v2 eu2">EUR</button></li>
+            <li><button class="value v2 gb2">GBP</button></li>
+        </ul>
+        <div class="result">
+            <input type="text" class="inp inp2">
+            <p id="rate2"></p>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
