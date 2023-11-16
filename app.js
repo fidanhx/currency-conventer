@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 let amountInputs = document.querySelectorAll(".inp");
 let fromCurrencyButtons = document.querySelectorAll(".v1");
 let toCurrencyButtons = document.querySelectorAll(".v2");
@@ -111,6 +112,10 @@ function setDefaultActiveButtons() {
 
     ru1Button.classList.add('active');
     us2Button.classList.add('active');
+    getExchangeRate(fromCurrency, toCurrency, 0, [amountInputs[0],amountInputs[1]]);
+
 }
 
 setDefaultActiveButtons();
+
+});
